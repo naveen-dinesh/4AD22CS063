@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 const portNumber = 3000;
 const windowSize = 10;
-const acceptableIDs = ['p', 'f', 'even', 'r']; 
+const acceptableIDs = ['prime', 'fibo', 'even', 'rand']; 
 let numberWindow = [];
 
 function calculateAverage(numbersList) {
